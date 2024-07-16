@@ -1,3 +1,5 @@
+*.pt
+*.pth
 *.onnx
 yolov5
 yolov10
