@@ -1,0 +1,6 @@
+onnx==1.13.1
+onnx-simplifier==0.4.35
+onnxoptimizer==0.3.13
+onnxruntime==1.17.0
+sclblonnx==0.2.1
+ultralytics==8.1.14
