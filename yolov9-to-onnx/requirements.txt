@@ -1,0 +1,6 @@
+onnx
+onnxsim
+sclblonnx
+onnxruntime
+opencv-python
+opencv-contrib-python
