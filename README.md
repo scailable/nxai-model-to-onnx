@@ -3,6 +3,12 @@
 This repository contains tutorials that show how to go
 from a particular trained model to an ONNX model that is compatible with the Nx AI Manager.
 
+## Requirements
+
+Please make sure to use Python version 3.10 and create a Python virtual environment to avoid any conflicts with pre-installed packages.
+
+> These tutorials work only on x86_64 machines.
+
 ## Pre-requisites
 
 Models supported by the Nx AI infrastructure are just ONNX format models with a few constraints.   
@@ -31,15 +37,15 @@ documentation [page](https://nx.docs.scailable.net/for-data-scientists/onnx-requ
 
 ## ONNX version 1.15.0
 
-To meet the compatibility requirements for Nx AI Manager XPU runtimes, we advise using or exporting only ONNX versions up to 1.15.0. This version is solely compatible with Python 3.11.
+To meet the compatibility requirements for Nx AI Manager XPU runtimes, we advise using or exporting only ONNX versions up to 1.15.0. This version is solely compatible with Python 3.10.
 We refresh our runtimes at least every six months, so feel free to check back periodically for updates on the latest ONNX version support.
-To install ONNX 1.15.0 for Python 3.11, you can use the following pip command:
+To install ONNX 1.15.0 for Python 3.10, you can use the following pip command:
 
 ```
 pip install onnx==1.15.0
 ```
 
-For inference purposes, ONNX models are typically executed using the ONNX Runtime. The ONNX Runtime version 1.17.0 supports ONNX opset version 20 and is compatible with Python 3.11. To install the ONNX Runtime for CPU execution, use:
+For inference purposes, ONNX models are typically executed using the ONNX Runtime. The ONNX Runtime version 1.17.0 supports ONNX opset version 20 and is compatible with Python 3.10. To install the ONNX Runtime for CPU execution, use:
 
 ```
 pip install onnxruntime==1.17.0
