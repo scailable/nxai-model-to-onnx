@@ -3,3 +3,4 @@ torch
 onnxruntime
 onnxsim
 sclblonnx
+onnx<=1.15.0

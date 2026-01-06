@@ -2,3 +2,4 @@ timm
 sclblonnx
 torch
 onnxsim
+onnx<=1.15.0

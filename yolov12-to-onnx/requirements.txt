@@ -1,5 +1,5 @@
 sclblonnx==0.3.0
-onnx==1.14.0
+onnx>=1.14.0,<=1.15.0
 onnx-simplifier==0.4.35
 onnxoptimizer==0.3.13
 ultralytics @ git+https://github.com/sunsmarterjie/yolov12
