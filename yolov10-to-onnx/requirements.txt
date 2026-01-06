@@ -1,4 +1,4 @@
-onnx==1.13.1
+onnx>=1.13.1,<=1.15.0
 onnx-simplifier==0.4.35
 onnxoptimizer==0.3.13
 sclblonnx==0.2.1
