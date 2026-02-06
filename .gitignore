@@ -4,3 +4,6 @@
 yolov5
 yolov10
 models
+venv
+runs
+__pycache__
