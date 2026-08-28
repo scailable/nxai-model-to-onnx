@@ -1,0 +1,6 @@
+rfdetr
+onnx
+onnxruntime
+onnxsim
+pillow
+numpy
